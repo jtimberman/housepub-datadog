@@ -1,0 +1,8 @@
+name             'housepub-datadog'
+maintainer       'Joshua Timberman'
+maintainer_email 'cookbooks@housepub.org'
+license          'Apache 2.0'
+description      'Site-specific implementation cookbook for interacting with Data Dog.'
+version          '0.2.0'
+depends          'datadog', '~> 2.1'
+depends          'chef-vault', '~> 1.3'
